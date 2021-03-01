@@ -1,0 +1,55 @@
+#app{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr 40px;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    "header header"
+    "menu content"
+    "menu footer"
+    ;
+}
+.body{
+    
+    margin: 0;
+}
+.header{
+    display: flex;
+    grid-area: header;
+    background: linear-gradient(to right,rgb(60, 46, 255),rgb(255, 24, 255));
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    grid-area: footer;
+    background-color: rgb(175, 175, 175);
+    justify-content: flex-end;
+    padding-right: 80px;
+    align-items: center;
+}
+.content{
+    display: flex;
+    grid-area: content;
+}
+.menu{
+    display: flex;
+    grid-area: menu;
+    background: linear-gradient(to right, rgb(1, 19, 27), rgb(114, 114, 114));
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+.red{
+    color: red;
+}
+.menu a{
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+color: white;
+}
+.menu a:hover{
+background-color: royalblue;
+color: black;
+}

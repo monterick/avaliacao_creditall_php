@@ -1,0 +1,40 @@
+
+*** Teste developer PHP Creditall 2020 ***
+
+    1 - Criar uma tabela com nome "CONSUMIDOR" para gravar dados no MySql.
+        
+        http://localhost/phpmyadmin/
+        
+        Estrutura
+            - ID_CONSUMIDOR
+            - NOME_CONSUMIDOR
+            - DATA_NASCIMENTO
+            - RENDIMENTO
+    ----------------------------------------------------------------------------------------
+
+    2 - Criar um arquivo de conexão com o banco de dados MySql:
+
+        Dados para conexão com o banco de dados:
+            Servidor: localhost
+            Schema: creditall
+            Usuario: creditall
+            Senha: 12345678
+    ----------------------------------------------------------------------------------------
+    
+    3 - Criar uma tela para LISTAR os registros da tabela CONSUMIDOR:
+
+        |   ID_CONSUMIDOR   |   NOME_CONSUMIDOR |   DATA_NASCIMENTO |   RENDIMENTO  |
+                2547             JOSÉ DA SILVA        25/08/1989          1430,75        
+    ----------------------------------------------------------------------------------------
+
+    4 - Criar uma tela para INCLUIR os registros na tabela CONSUMIDOR.        
+    ----------------------------------------------------------------------------------------
+
+    5 - Criar uma opção para EXCLUSÃO dos registros da tabela CONSUMIDOR.
+    ----------------------------------------------------------------------------------------    
+    
+    6 - Criar esquema de paginação dos resultados.
+    ----------------------------------------------------------------------------------------    
+
+    7 - Utilizar bootstrap nas paginas.
+    ----------------------------------------------------------------------------------------
